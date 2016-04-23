@@ -542,7 +542,7 @@ var createAnimatableComponent = function(component) {
         transform: [{
           scale: this.state.animationValue.interpolate({
             inputRange: [0, 0.5, 1],
-            outputRange: [1, 1.05, 1],
+            outputRange: [1, 1.2, 1],
           }),
         }],
       });
